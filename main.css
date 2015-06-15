@@ -1,0 +1,147 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+header {
+  background-color: #FFF;
+  height: 68px;
+}
+ul,li {
+    margin:0;
+    padding:0;
+}
+.logo {
+
+  float: left;
+  margin-left: 115px;
+}
+.menu {
+  float: right;
+  margin: 27px 109px;
+  position: absolute;
+  left: 228px;
+}
+.menu li {
+  display: inline-block;
+  margin: 0px 23px;
+  font-size: 13px;
+}
+.menu li>a{
+    color: #060606;
+    text-decoration: none;
+}
+.menu li:hover {
+    color: #CA0007;
+    font-size:15px;
+    font-weight:bold;
+}
+.gallery .galleryimg {
+  height: 599px;
+  width: 1336px;
+}
+.gallery .bar li {
+  display: inline-block;
+  border-radius: 60%;
+  width: 13px;
+  height: 13px;
+  background-color: #fff;
+}
+.gallery .bar {
+  margin-top: -32px;
+  text-align: center;
+}
+.gallery .bar li.current {
+    background-color: #5B6D94;
+}
+.center {
+    margin-top:30px;
+}
+.center .functionleft {
+  margin: 43px 78px;
+  float: left;
+  width: 400px;
+}
+.center .functionleft li{
+    display: inline-block;
+    height:94px;
+    width:157px;
+}
+.center .news .newsup li {
+    float: left;
+}
+.center .news ul {
+  position: absolute;
+  left: 433px;
+}
+.center .news .newsup li {
+  display: inline-block;
+  font-size: 18px;
+  margin: 53px 6px;
+  padding-left: 45px;
+  font-weight: bold;
+}
+.center .functionrigth {
+  float: left;
+  margin: 99px -50px;
+}
+.center .functionrigth li {
+  font-size: 12px;
+  padding: 7px;
+}
+.center .centerright {
+  float: right;
+  width: 350px;
+  margin: 53px 16px;
+}
+.center .centerright li>img{
+    border:1px solid #048367;
+}
+.center .centerright li:hover>a img{
+    border:1px solid #048367;
+}
+.center .centerright li{
+    display: inline-block;
+
+    height:135px;
+    width:150px;
+}
+.butomdown {
+  float: left;
+  margin: -19px 38px;
+}
+.butomdown li{
+    display: inline-block;
+
+    height:139px;
+    width:311px;
+}
+.butomdown li img {
+    opacity:0.4;
+    filter:alpha(opacity=40);
+}
+.butomdown li img:hover {
+    opacity:1.0;
+    filter:alpha(opacity=100);
+}
+.butom {
+  float: left;
+  background-color: #242F2F;
+  height: 49px;
+  width: 100%;
+  margin: 36px 0px;
+}
+.butom .butomone {
+  text-align: center;
+  margin-top: 13px;
+  font-size: 14px;
+}
+.butom .butomone li{
+    display: inline-block;
+    color: #FFF;
+}
+.butom .butomtwo {
+  margin-top: 15px;
+}
+.butom .butomtwo li{
+    display: inline-block;
+}
